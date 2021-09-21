@@ -1,4 +1,27 @@
 /* >p:last-child selector */
 body{
-    background-color: aqua;
+    background-color: grey;
+}
+/*Para que sea responsive se deben de establecer las propiedades max-width y max-height al 100% para cuadrarlo en el DIV correspondiente */
+img {
+    display: block;
+    margin: 0 auto;
+    /*max-width: 100%;
+    max-height: 100%;*/
+    width: 150;
+    height: 100;
+}
+
+p {
+    color: crimson;
+    font-style: italic;
+}
+
+iframe.ytvideo{
+    width:560px;
+    height:315px;
+}
+iframe.maps{
+    width:560px;
+    height:315px;
 }
